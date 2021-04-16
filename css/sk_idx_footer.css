@@ -1,0 +1,111 @@
+/*skt cloud index footer css*/
+
+#footer_wrap{
+    height: auto;
+    padding: 40px 0;
+    background-color: #4d4d4d;
+}
+
+#footer{
+    color: white;
+}
+
+#footer>p:nth-child(1){
+    width: 100%;
+    padding-bottom: 28px;
+    font-size: 15px;
+    letter-spacing: -.6px;
+    color: #fff;
+}
+
+
+#footer_div1{
+    width: 1200px;
+    height: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+/*이용약관*/
+.footer_ul1{
+    width: 415px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.footer_ul1>li{
+    float: left;
+    margin-right: 30px;
+}
+
+.footer_ul1>li>a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.6px;
+    color: #fff;
+}
+
+.span_div{
+    display: inline-block;
+    float: right;
+}
+
+.span_div > span:nth-child(1){
+    margin-right: 20px;
+    font-size: 15px;
+}
+.span_div > span:nth-child(2){
+    margin-right: 20px;
+}
+
+.span_div>span:nth-child(3)>select{
+    background: none;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px
+}
+
+#FamilySite_select{
+    color:#fff
+}
+
+#FamilySite_select >option{
+    color:#000;
+}
+
+/*주소 부분*/
+.ul_div{
+    width: 1200px;
+    height: 30px;
+}
+
+.ul_div>ul>li{
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    letter-spacing: -.6px;
+    color: #fff;
+    line-height: 2;
+    margin-right: 20px;
+}
+.ul_div>ul>li>span{
+    margin-left: 20px;
+}
+.ul_div>ul>li>a{
+    color: white;
+}
+
+.footer_p{
+    font-size: 15px;
+    letter-spacing: -.6px;
+    color: #fff;
+    line-height: 2;
+}
+
+

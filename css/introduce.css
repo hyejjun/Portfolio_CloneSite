@@ -1,0 +1,150 @@
+/*intro_main1 시작*/
+
+#intro_main1{
+    height: 740px;
+    background: url('../img_skt/intro_bk.png') no-repeat 50%;
+    background-size: cover;
+}
+
+.intro_main1_head > img{
+    width: 374px;
+    height: 225px;
+    margin: 0 auto;
+    display: block;
+}
+
+.intro_main1_head>p{
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.53;
+    letter-spacing: -1.36px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 34px;
+}
+
+.intro_main1_content{
+    margin-left: 73px;
+}
+
+.intro_main1_content>ul{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+}
+.intro_main1_content>ul>li{
+    width: 300px;
+    height: 293px;
+    float: left;
+}
+
+.intro_main1_content>ul>li:nth-child(1){
+    width: 332px;
+}
+.intro_main1_content>ul>li:nth-child(1)>img{
+    margin-left: 17px;
+}
+
+
+.intro_main1_content>ul>li:nth-child(2),
+.intro_main1_content>ul>li:nth-child(3)
+{
+    margin-left: 95px;
+}
+
+.im1_p1{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -.92px;
+    padding-bottom: 8px;
+    color: #fff;
+    text-align: center;
+}
+
+.im1_p2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: -.72px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#intro_main2,
+#intro_main3,
+#intro_main4
+{
+    height: 600px;
+}
+/*intro_main1 끝*/
+
+/*intro main2 시작*/
+
+.intro_img{
+    float: left;
+    margin: 0 40px 0 30px;
+}
+/*공통부분임*/
+.intro_img>img{
+    width: 480px;
+    height: 480px;
+    margin: 30px 40px 30px 0;
+}
+
+.imcontent{
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+
+.imcontent>p:nth-child(1){
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+    text-align: left;
+    color: #1b3785;
+    padding-bottom: 30px;
+    
+}
+
+.imcontent>p:nth-child(2),
+.imcontent>p:nth-child(3),
+.imcontent>p:nth-child(4)
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.21;
+    letter-spacing: -.64px;
+    text-align: left;
+    color: #17191e;
+    margin-top: 25px;
+    padding-bottom: 16px;
+    
+}
+
+/*intro main2 끝*/
+
+/*intro main3 시작*/
+#intro_main3{
+    background: #f2f3f4;
+}
+
+.intro_img3>img{
+    margin: 30px 0 30px 40px;
+}
+.im3_content{
+    float: left;
+}
+.im3_content>p{
+    text-align: right;
+}
+.im3_content>p:nth-child(1),
+.im3_content>p:nth-child(2),
+.im3_content>p:nth-child(3)
+{
+    text-align: right;
+}
+
+/*intro main3 끝*/
+

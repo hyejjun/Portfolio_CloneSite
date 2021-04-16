@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduce</title>
+    <link rel="stylesheet" href="./css/sk_idx.css">
+    <link rel="stylesheet" href="./css/sk_idx_header.css">
+    <link rel="stylesheet" href="./css/sk_idx_footer.css">
+    <link rel="stylesheet" href="./css/introduce.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img_skt/favicon.ico">
+
+</head>
+
+<body>
+    <div id="wrap" class="w100">
+        <!--header start-->
+        <div id="header" class="w100">
+            <div id="header_top_wrap" class="w100">
+                <div id="header_top_content" class="w1200">
+                    <ul class="header_ul">
+                        <li class="search_li"><input type="text" placeholder="상품을 검색해보세요" class="search_hide"></li>
+                        <li class="search_img" onclick="searchBtn();" onmouseover="toggleImg();"onmouseout="Img_back();">
+                            <a href="#">
+                                <img src="./img_skt/icon_search.svg" id="search_img">
+                            </a>
+                        </li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menu_wrap" class="w100">
+                <div id="menu_content" class="w1200">
+                    <div id="logo">
+                        <a href="sktcloud_index.html"><img src="./img_skt/skt_logo_top.svg" alt="로고"></a>
+                    </div>
+                    <ul class="menu_ul">
+                        <li><a href="introduce.html">소개</a></li>
+                        <li><a href="#main_section3">SKT상품</a></li>
+                        <li><a href="#">전체상품보기</a></li>
+                        <li onclick="menuBtn();" mouseout=""><a href="#">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menubar" class="fake">
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">필요서류 안내</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--heaer_end-->
+
+        <!--main1 start-->
+
+        <div id="intro_main1" class="w100">
+            <div class="w1200">
+                <div class="intro_main1_head">
+                    <img src="./img_skt/logo_introduce.svg">
+                    <p>
+                        초시대 · 초연결 · 초지능으로<br>
+                        5G 세상을 주도하는 SK텔레콤에서 Cloud 세상을 함께 합니다.
+                    </p>
+                </div>
+                <div class="intro_main1_content">
+                    <ul>
+                        <li>
+                            <img src="./img_skt/intro_icon_01.svg">
+                            <p class="im1_p1">超시대에 맞는 Cloud 패키지 제공</p>
+                            <p class="im1_p2">
+                                다양한 클라우드 상품을 비교하여<br>
+                                One-stop으로 구매합니다.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./img_skt/intro_icon_02.svg">
+                            <p class="im1_p1">구매자 니즈에 맞는 상품</p>
+                            <p class="im1_p2">
+                                멀티 클라우드 기반의 상품들을<br>
+                                자유롭게 구매합니다.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./img_skt/intro_icon_03.svg">
+                            <p class="im1_p1">구매자에서 판매자로</p>
+                            <p class="im1_p2">
+                                함께 가치를 키워가는<br>
+                                신사업의 생태계를 만듭니다.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--main1 end-->
+
+        <!--main2 start-->
+        <div id="intro_main2" class="w100">
+            <div id="intro_main2_content" class="w1200">
+                <div class="intro_img">
+                    <img src="./img_skt/intro_cloud.png">
+                </div>
+                <div class="im2_content imcontent">
+                    <p>超시대에 맞는 Cloud 패키지 제공</p>
+                    <p>
+                        5G cloud 상품을 한 눈에 볼 수 있는 유일한 공간입니다.<br>
+                        다양한 Cloud infra 부터, 연관된 상품을 한 눈에 비교하며 구매할 수 있습니다.
+                    </p>
+                    <p>
+                        초융합, 초연결, 초지능으로 대표되는 超시대에 맞는 상품을<br>
+                        One-stop으로 구매하실 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--main2 end-->
+
+        <!--main3 start-->
+        <div id="intro_main3" class="w100">
+            <div class="w1200">
+                <div class="im3_content imcontent">
+                    <p>구매자 니즈에 맞는 상품</p>
+                    <p>
+                        SKT Cloud Marketplace는 Cloud에 종속된 다른 Marketplace와 달리,<br>
+                        멀티 클라우드 기반의 상품들을 자유롭게 구매 및 활용할 수 있는 유일한 공간입니다.
+                    </p>
+                    <p>
+                        상품에 대한 업데이트는 지속적으로 이루어지며,<br>
+                        구매자가 필요로 하는 상품에 대한 의견을 적극적으로 수렴해서 반영함으로써,<br>
+                        타 Marketplace에서 상품을 찾지 못하실 경우 SKT의 Marketplace에서<br>
+                        지원해 드립니다.
+                    </p>
+                </div>
+                <div class="intro_img intro_img2">
+                    <img src="./img_skt/intro_pink.png">
+                </div>
+            </div>
+        </div>
+        <!--main3 end-->
+
+        <!--main4 start-->
+        <div id="intro_main4" class="w100">
+            <div class="w1200">
+                <div class="intro_img">
+                    <img src="./img_skt/intro_last.png">
+                </div>
+                <div class="imcontent">
+                    <p>구매자에서 판매자로</p>
+                    <p>
+                        Marketplace의 장점은 구매자가 언제든지 판매자로서도 Marketplace를<br>
+                        이용하실 수 있다는 점 입니다.
+                    </p>
+                    <p>
+                        언제든지 판매자로서 SaaS 형태 또는 API 형태로 상품을 소개하고 유통하실 수 있는<br>
+                        판매의 장을 열어 드립니다.
+                    </p>
+                    <p>
+                        구매자와 판매자의 선순환의 생태계를 통해서 더 큰 Market으로 성장시키는 것이<br>
+                        SKT Marketplace 의 목표 입니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--main4 end-->
+        <!--footer start-->
+        <div id="footer_wrap" class="w100">
+            <div id="footer" class="w1200">
+                <p>SK텔레콤은 통신판매중개자이며, 클라우드 마켓플레이스의 거래 당사자가 아닙니다. 입점 판매자가 등록한 상품 정보 및 거래에 대해 SK텔레콤은 책임을 지지 않습니다.</p>
+                <div id="footer_div1">
+                    <ul class="footer_ul1">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">이메일 무단 수집 거부</a></li>
+                    </ul>
+
+                    <div class="span_div">
+                        <span>
+                            판매자포털바로가기
+
+                        </span>
+                        <span> | </span>
+                        <span>
+                            <select name="family" id="FamilySite_select">
+                                <option value="1">FamilySite</option>
+                                <option value="2">T bizpoint</option>
+                                <option value="3">T world Biz</option>
+                                <option value="4">IoT Portal</option>
+                            </select>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="ul_div">
+                    <ul>
+                        <li>서울특별시 중구 을지로 65 <span> | </span></li>
+                        <li>대표이사/사장 : 박정호 <span> | </span></li>
+                        <li>통신판매번호 : 2004-서울중구-2923 <span> | </span></li>
+                        <li>사업자등록번호 : 104-81-37225 <span> | </span></li>
+                        <li><a href="#">사업자정보확인</a></li>
+                    </ul>
+                </div>
+                <p class="footer_p">고객센터 : 휴대폰 국번없이 T.1599-6011(유료)
+                    <span>|</span>
+                    대표이메일 : sktcloudmarketplace@sktelecom.com
+                </p>
+                <p class="footer_p">COPYRIGHT SK TELECOM CO., LTD. ALL RIGHTS RESERVED</p>
+            </div>
+        </div>
+        <!--footer end-->
+    </div>
+    <script src="./js/menubar.js"></script>
+</body>
+
+</html>

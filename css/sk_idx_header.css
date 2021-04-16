@@ -1,0 +1,183 @@
+/*skt cloud index header css*/
+#header_mobile_wrap{
+    display: none;
+}
+
+#header{
+    height: auto;
+}
+
+#header_top_wrap{
+    height: auto;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.header_ul{
+    float: right;
+}
+
+#header_top_content{
+    height: 38px;
+}
+
+.header_ul >li{
+    float: left;
+    margin: 10px 30px 0 0;
+}
+
+.header_ul>li:nth-child(3):hover>a,
+.header_ul>li:nth-child(4):hover>a
+{
+    color: #ff7a00;
+}
+
+.header_ul > li > a{
+    color: #202020;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.header_ul > li >a> img{
+    width: 15px;
+    height: 15px;
+    padding-top: 6px;
+}
+
+/*header 의 logo*/
+#menu_wrap{
+    height: 70px;
+}
+
+#menu_content{
+    height: 68px;
+}
+
+#logo{
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    float: left;
+    padding: 20px 0 20px 20px;
+    box-sizing: border-box;
+}
+
+#logo > a > img{
+    width: 230px;
+    height: 25px;
+}
+
+
+/*menu*/
+.menu_ul {
+    width: 390px;
+    height: 69px;
+    display: inline-block;
+    float: right;
+}
+
+.menu_ul > li{
+    float: left;
+    margin: 20px 40px 0 0 ;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.menu_ul>li:hover
+{
+    border-bottom: 2px solid #ff7a00;
+}
+
+
+.menu_ul > li:nth-child(4){
+    margin-right: 0px;
+    display: inline-block;
+}
+
+.img_plus{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.img_plus.deg{
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.img_plus.deg2{
+    transform: rotate(360deg);
+    transition: transform 0.3s;
+}
+
+
+.menu_ul> li >a {
+    color: #202020;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: -.8px;
+    text-align: center;
+}
+
+/*돋보기 검색*/
+
+.header_ul > li:nth-child(1) > input.search_show{
+    border: none;
+}
+
+.header_ul > li:nth-child(1) > input:focus{ 	
+    border: none;
+    outline:none;
+}
+
+.header_ul > li:nth-child(1) > input.search_hide{
+    display: none;
+    
+}
+
+/*고객센터 메뉴바*/
+
+#menubar{
+    width: 100%;
+    height: 50px;
+    background: #eaeaea;
+    box-sizing: border-box;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 9;
+}
+
+#menubar.menu_show{
+    display: block;
+}
+
+#menubar.fake{
+    display: none;
+}
+
+#menubar>ul{
+    width: 1200px;
+    height: 100%;
+    padding-top: 5px;
+    padding-left: 848px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#menubar > ul >li{
+    margin-left: 30px;
+    float: left;
+}
+
+#menubar > ul >li>a{
+    text-decoration: none;
+    color: rgb(65, 63, 63);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+
+/*탐색 이미지*/
+
+
+

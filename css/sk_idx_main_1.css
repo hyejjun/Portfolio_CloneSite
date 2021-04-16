@@ -1,0 +1,135 @@
+#main_wrap{
+    height: auto;
+}
+
+#section1_wrap{
+    padding: 80px 0;
+    box-sizing: border-box;
+    margin-top: 500px;
+}
+
+#section1_content{
+    text-align: center;
+}
+
+
+/*슬라이드 부분 시작*/
+#section1_slide{
+    width: 1200px;
+    height: 520px;
+    padding: 40px 18px 40px 18px;
+    box-sizing: border-box;
+}
+
+.section1_ul{
+    width: 1200px;
+    height: 500px;
+    padding-left: 100px;
+}
+
+.section1_ul > li{
+    width: 300px;
+    height: 500px;
+    display: inline;
+    float: left;
+
+    margin-right: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+.section1_ul > li:hover{
+    background-color: white;
+    border: 5px solid rgba(182, 177, 177, 0.8);
+    border-radius: 20px;
+    transition: all .45s;
+    cursor: pointer;  
+    transform: scale(1.1);
+}
+
+.section1_content{
+    padding: 30px 5px;
+    box-sizing: border-box;
+}
+
+.section1_img>img{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+    background:white;
+}
+
+.section1_content>h3{
+    width: 200px;
+    height: 31px;
+    font-size: 24px;
+    color: #202020;
+    overflow: hidden;
+    text-align: left;
+}
+
+
+.section1_p_1{
+    width: 230px;
+    height: 70px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #4d4d4d;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.section1_p_2{
+    width: 230px;
+    height: 72px;
+    margin-right: 10px;
+    color: #FF7A00;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+}
+
+.section1_p_2 > span {
+    font-size: 11px;
+    color: #ababab ;
+}
+
+.section1_p_3{
+    width: 270px;
+    height: 50px;
+    font-size: 25px;
+    text-align: left;
+    color: #202020;
+    font-weight: bold;
+}
+
+.section1_p_3 > span{
+    font-size: 15px;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+/*자세히 보기 버튼*/
+
+.section1_btn>img{
+    width: 36px;
+    height: 8px;
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+   
+
+.section1_btn>span{
+    float: left;
+    color: #202020;
+    font-size: 14px;
+    font-weight: bold;
+}

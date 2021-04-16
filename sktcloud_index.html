@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5GX Cloud Marketplace</title>
+    <link rel="stylesheet" href="./css/sk_idx.css">
+    <link rel="stylesheet" href="./css/sk_idx_header.css">
+    <link rel="stylesheet" href="./css/sk_idx_visual.css">
+    <link rel="stylesheet" href="./css/sk_idx_main_1.css">
+    <link rel="stylesheet" href="./css/sk_idx_main_2.css">
+    <link rel="stylesheet" href="./css/sk_idx_main_3.css">
+    <link rel="stylesheet" href="./css/sk_idx_main_4.css">
+    <link rel="stylesheet" href="./css/sk_idx_footer.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img_skt/favicon.ico">
+
+</head>
+
+<body>
+    <div id="wrap" class="w100">
+        <a id="top_icon_wrap" href="#header"><img id="top_icon" src="./img_skt/toptop.png"></a>
+        <!--header start-->
+        <div id="header" class="w100">
+            <div id="header_top_wrap" class="w100">
+                <div id="header_top_content" class="w1200">
+                    <ul class="header_ul">
+                        <li class="search_li"><input type="text" placeholder="상품을 검색해보세요" class="search_hide"></li>
+                        <li class="search_img" onclick="searchBtn();" onmouseover="toggleImg();"
+                            onmouseout="Img_back();">
+                            <a href="#">
+                                <img src="./img_skt/icon_search.svg" id="search_img">
+                            </a>
+                        </li>
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menu_wrap" class="w100">
+                <div id="menu_content" class="w1200">
+                    <div id="logo">
+                        <a href="#"><img src="./img_skt/skt_logo_top.svg" alt="로고"></a>
+                    </div>
+                    <!--모바일-->
+                    <div id="icon_mobile">
+                        <a href="#" onclick="mobileMenu();"><img id="mmb_img" src="./img_skt/icon_menu.svg"></a>
+                        <a href="#" onclick="mobileSearch();"><img class="" src="./img_skt/icon_search.svg"></a>
+                    </div>
+                    <ul class="menu_ul">
+                        <li><a href="./introduce.html">소개</a></li>
+                        <li><a href="#main_section3">SKT상품</a></li>
+                        <li><a href="#">전체상품보기</a></li>
+                        <li onclick="menuBtn();" mouseout="">
+                            <a href="#">
+                                고객센터
+                                <img id="plusImg" class="img_plus" src="./img_skt/icon_gnb_plus.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menubar" class="fake">
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">자주하는 질문</a></li>
+                    <li><a href="#">필요서류 안내</a></li>
+                </ul>
+            </div>
+
+            <!--모바일-->
+            <div id="mobile_search" class="search_off">
+                <div id="ms_content">
+                    <input type="text" placeholder="상품을 검색해보세요." id="m-search-input" class="">
+                    <label for="m-search-input">
+                        <img src="./img_skt/icon_search_active.svg">
+                    </label>
+                </div>
+            </div>
+
+            <!--모바일-->
+            <div id="mobile_menu_bar" class="mmb_none">
+                <div onclick="showMenu();">
+                    로그인
+                    <img id="plusImg2" class="img_plus" src="./img_skt/icon_gnb_plus.svg">
+                </div>
+                <div class="hide_menu">
+                    <div class="hm_d">로그인</div>
+                    <div class="hm_d">회원가입</div>
+                </div>
+                <div>소개</div>
+                <div>전체상품보기</div>
+                <div onclick="showMenu2();">
+                    고객센터
+                    <img id="plusImg3" class="img_plus" src="./img_skt/icon_gnb_plus.svg">
+                </div>
+                <div class="hide_menu">
+                    <div class="hm_d">공지사항</div>
+                    <div class="hm_d">자주하는질문찾기</div>
+                    <div class="hm_d">필요서류안내</div>
+                </div>
+            </div>
+
+
+            <!--header end-->
+            <!--visual start-->
+            <!--js로 슬라이드 넘어갈때마다 visual_wrap bk 색 변경하기-->
+            <div id="visual_wrap" class="w100">
+                <div id="visual_content" class="w1200">
+                    <div class="slide">
+                        <div class="visual_div visual_div1" class="w100">
+                            <h3>SKT Cloud Marketplace</h3>
+                            <h1>Launching</h1>
+                            <p>쉬운 탐색, 편리한 적용, 빠른 고객지원까지<br>SKT 5GX Cloud Marketplace에서는 가능합니다.</p>
+                            <a href="#">자세히 보기 ⟶</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="visual_div visual_div2">
+                            <h3>비지니스에별을달다</h3>
+                            <h1>다이얼링크</h1>
+                            <p>스마트폰에서 번호와 *(별표)를 입력한 후 통화버튼만 누르면,<br>기업이 원하는 모바일 웹으로 자동 연결해주는 서비스입니다.</p>
+                            <a href="#">자세히 보기 ⟶</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="visual_div visual_div3">
+                            <h3>국내 1위 Digital Security 사업자</h3>
+                            <h1>ADT캡스와 함께 하세요.</h1>
+                            <p>
+                                솔루션 구매, 설치, 운영, 관제까지
+                                <br>
+                                One-stop Cloud 보안 서비스를 경험하시기 바랍니다 .
+                            </p>
+                            <a href="#">자세히 보기 ⟶</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="visual_div visual_div4">
+                            <h3> 클라우드 딜리버리 플랫폼 베스핀 글로벌 </h3>
+                            <h1> 클라우드 MRA 컨설팅 0원!</h1>
+                            <p>
+                                마이그레이션 예산이 없다면, 컨설팅부터 받아보세요.<br>
+                                엔터프라이즈 마이그레이션은 베스핀글로벌이 잘합니다.
+                            </p>
+                            <a href="#">자세히 보기 ⟶</a>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="visual_div visual_div5">
+                            <h3> 클라우드 네이티브 보안 No.1 베스핀글로벌 </h3>
+                            <h1> 보안관제/취약점 점검 무료</h1>
+                            <p>
+                                클라우드 네이티브 보안은 기존 보안과 다릅니다.<br>
+                                클라우드 보안 전문가가 꼼꼼한 솔루션을 드립니다.
+                            </p>
+                            <a href="#">자세히 보기 ⟶</a>
+                        </div>
+                    </div>
+
+
+                    <!--prev next button-->
+                    <span id="slideBtn">
+                        <button class="prev" onclick="BannerBtn(0)">
+                            <img src="./img_skt/icon_main_indicator_left.svg">
+                        </button>
+                        <button class="next" onclick="BannerBtn(1)">
+                            <img src="./img_skt/icon_main_indicator.svg">
+                        </button>
+                    </span>
+                </div>
+
+            </div>
+            <!--visual end-->
+
+            <!--main start-->
+            <div id="main_wrap" class="w100">
+                <!--section 1 start-->
+                <div id="section1_wrap" class="w100">
+                    <div id="section1_content" class="w1200 section_head">
+                        <h3>할인과 혜택</h3>
+                        <p class="sec_p1">SK텔레콤 클라우드 마켓플레이스 상품 구매 시, 특별 할인가 적용 등 풍성한 혜택을 만나보세요.</p>
+                        <div id="section1_slide">
+                            <ul class="section1_ul">
+                                <li>
+                                    <div class="section1_img">
+                                        <img src="./img_skt/zadara.png">
+                                    </div>
+                                    <div class="section1_content">
+                                        <h3>Zadara Storage</h3>
+                                        <p class="section1_p_1">
+                                            Zadara Storage는 엔터프라이즈 고객이 합리적인 비용으로 이용할 수 있는 서비스형 스토리지로, 단순하고 유연한 인프라 운영을
+                                            가능하게
+                                            합니다.
+                                            Zadara를 통해 파일, 블록, 오브젝트 스토리지를 온프레미스, 코로케이션, 퍼블릭/프라이빗 클라우드 등 다양한 환경에서 구축할 수
+                                            있습니다.
+                                            Zadara Storage는 300개 이상의 글로벌 로케이션에서 서비스를 제공하고 있습니다.
+                                        </p>
+                                        <p class="section1_p_2">닌텐도 스위치 증정</p>
+                                        <p class="section1_p_3">100 <span>원/GB</span></p>
+                                        <a href="#" class="section1_btn">
+                                            <img src="./img_skt/icon_arrow.svg" alt="작은 화살표">
+                                            <span>자세히보기</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="section1_img">
+                                        <img src="./img_skt/paloalto.png">
+                                    </div>
+                                    <div class="section1_content">
+                                        <h3>Paloalto VM-Series(NGFW)</h3>
+                                        <p class="section1_p_1">
+                                            VM형 네트워크 보안플랫폼은 차세대 방화벽, APT대응을 비롯한 다양한 네트워크 보안기능을 통합 제공하는 플랫폼입니다.
+                                        </p>
+                                        <p class="section1_p_2">50% <span> <del> 295,000원</del></span></p>
+                                        <p class="section1_p_3">147,500<span>원/EA(개수)</span></p>
+                                        <a href="#" class="section1_btn">
+                                            <img src="./img_skt/icon_arrow.svg" alt="작은 화살표">
+                                            <span>자세히보기</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="section1_img">
+                                        <img src="./img_skt/pentasecurity.jpg">
+                                    </div>
+                                    <div class="section1_content">
+                                        <h3> Pentasecurity WAPPLES SA </h3>
+                                        <p class="section1_p_1">
+                                            WAPPLES SA는 지능형 웹 애플리케이션 방화벽으로서 웹서버 앞 단에 위치하여 외부로부터 들어오는 HTTP/HTTPS 프로토콜
+                                            트래픽을
+                                            감시합니다.
+                                            악의적 공격이 탐지되면, 해당 공격이 웹서버에 도달하기 전에 차단하는 역할을 수행합니다.
+                                        </p>
+                                        <p class="section1_p_2">100% <span> <del> 260,000원</del></span></p>
+                                        <p class="section1_p_3">0원<span>원/EA(개수)</span></p>
+                                        <a href="#" class="section1_btn">
+                                            <img src="./img_skt/icon_arrow.svg" alt="작은 화살표">
+                                            <span>자세히보기</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--section 1 end-->
+
+                <!--section 2 start 추천상품-->
+                <div id="main_section2" class="w100">
+                    <div id="section2_content" class="w1200 section_head">
+                        <h3>추천상품</h3>
+                        <p class="sec_p1">SK텔레콤이 엄선한 상품으로 쉽고 편리하게 클라우드 서비스를 이용해 보세요.</p>
+                        <div id="section2_recommend">
+                            <ul class="section2_ul">
+                                <li>
+                                    <img class="badge_img" src="./img_skt/img-badge-recommand.svg">
+                                    <p class="badge badge1">1</p>
+                                    <div id="section2_img">
+                                        <img class="s2_img1" src="./img_skt/trend_micro.jpg">
+                                    </div>
+                                    <div id="sec2_content">
+                                        <h3>TrendMicro - Deep Security </h3>
+                                        <p class="section2_p1">보안 컴플라이언스 기준과 물리 서버, 가상화 서버, 클라우드 서버에 최적화된 통합 서버 보안 솔루션
+                                        </p>
+                                        <p class="section2_p2">
+                                            118,000
+                                            <span>원/EA(개수)</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="badge_img" src="./img_skt/img-badge-recommand.svg">
+                                    <p class="badge badge2">2</p>
+                                    <div id="section2_img">
+                                        <img src="./img_skt/dbsafer.png" alt="">
+                                    </div>
+                                    <div id="sec2_content">
+                                        <h3> Pnpsecure DBSAFER DB </h3>
+                                        <p class="section2_p1"> DBSAFER DB는 중요DB에 접근하는 사용자들을 대상으로 접근 및 권한통제를 수행하며,
+                                            보안대상에 접근하는 모든 행위에 대한 이력을 남기는 솔루션입니다. </p>
+                                        <p class="section2_p2">
+                                            95,000
+                                            <span>원/EA(개수)</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img class="badge_img" src="./img_skt/img-badge-recommand.svg">
+                                    <p class="badge badge3">3</p>
+                                    <div id="section2_img">
+                                        <img src="./img_skt/alertnow.png" alt="">
+                                    </div>
+                                    <div id="sec2_content">
+                                        <h3> AlertNow, 이벤트 통합 인지 플랫폼 </h3>
+                                        <p class="section2_p1"> AlertNow는 SaaS 기반의 서비스 인시던트 주기 관리 플랫폼입니다.
+                                            사용 중인 서비스의 상태를 확인할 수 있으며,
+                                            해당 서비스에서 발생한 알람을 수신하고 이력을 관리할 수 있습니다. </p>
+                                        <p class="section2_p2">
+                                            30
+                                            <span>원/EA(개수)</span>
+                                        </p>
+                                    </div>
+                                </li>
+                                <!--display none-->
+                                <li class="dis_none">
+                                    <div id="section2_img">
+                                        <img class="s2_img1" src="./img_skt/piicde.png">
+                                    </div>
+                                    <div id="sec2_content">
+                                        <h3>Spiceware on Cloud - PII CDE</h3>
+                                        <p class="section2_p1">
+                                            Spiceware on Cloud'는 클라우드 기반의 개인정보 보호 서비스입니다.
+                                            'Spiceware on Cloud'를 통해 클라우드 시스템 내 중요 데이터를 안전하게 보호하고 관리하세요.
+                                            자동화된 서비스로 내∙위부 위협은 줄이고, 가시성과 비용 절감을 확보할 수 있습니다.
+                                        </p>
+                                        <p class="section2_p2">
+                                            150,000
+                                            <span>원/EA(개수)</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="section2_div2">
+                                <img class="badge_img" src="./img_skt/img-badge-recommand.svg">
+                                <p class="badge badge4">&nbsp4</p>
+                                <a href="#"><img class="skt_pi" src="./img_skt/piicde.png"></a>
+                                <div class="section2_div2_content">
+                                    <h3> Spiceware on Cloud - PII CDE </h3>
+                                    <p class="s2_d2_p1"> 'Spiceware on Cloud'는 클라우드 기반의 개인정보 보호 서비스입니다.
+                                        'Spiceware on Cloud'를 통해 클라우드 시스템 내 중요 데이터를 안전하게 보호하고 관리하세요.
+                                        자동화된 서비스로 내∙위부 위협은 줄이고, 가시성과 비용 절감을 확보할 수 있습니다. </p>
+                                    <p class="s2_d2_p2">
+                                        150,000
+                                        <span>원/EA(개수)</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--section 2 end-->
+
+                <!--section 3 start-->
+                <div id="main_section3" class="w100">
+                    <div id="section3_content" class="w1200 section_head">
+                        <h3>SK텔레콤 상품</h3>
+                        <p class="sec_p1"> SK텔레콤의 AI, IoT, Networking, Database 등 클라우드 기반의 다양한 상품을 만나보세요. </p>
+
+                        <div class="section3_div1">
+                            <ul class="section3_ul goleft_0">
+                                <li>
+                                    <img src="./img_skt/AI_contect_center.png">
+                                    <div class="section3_div">
+                                        <h3> AI 컨택센터 </h3>
+                                        <p> 유연하고 확장성이 우수한 클라우드 기반 SaaS 형 서비스로 Omni-Channel / AI 기반 상담 / Mobile Desk 등
+                                            다양한
+                                            기능을
+                                            제공합니다 </p>
+                                        <a href="https://www.sktcloudmarketplace.com/productDetail?prdtId=92">상품 바로가기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./img_skt/diallilnk.JPG">
+                                    <div class="section3_div">
+                                        <h3> 다이얼링크(Dial Link) :: 비즈니스에 별을 달다 </h3>
+                                        <p> 번호와 *(별)만 누르면 기업이 원하는 모바일 웹으로 자동 연결해 주는 서비스. </p>
+                                        <a href="https://www.sktcloudmarketplace.com/productDetail?prdtId=50">상품 바로가기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./img_skt/anbu.png">
+                                    <div class="section3_div">
+                                        <h3> 1인가구 안부살핌 서비스 </h3>
+                                        <p> ‘1인가구 안부살핌 서비스’는 SKT와 한국전력이 공동으로 비즈니스 모델을 개발하고 사업을 추진하고 있는 서비스입니다.
+                                            본 서비스는 증가하고 있는 1인 가구의 고독사 예방을 위한 사회안전망 서비스로, 통신과 전력, 수도, 가스 등 생활 속 빅 데이터를
+                                            분석하여
+                                            이상 상황을 감지하면 지자체 복지 담당자에게 알람 서비스를 제공하는 솔루션입니다. </p>
+                                        <a href="https://www.sktcloudmarketplace.com/productDetail?prdtId=91">상품 바로가기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./img_skt/sk_openapi.PNG">
+                                    <div class="section3_div">
+                                        <h3> SK Open API </h3>
+                                        <p> SK ICT Family의 다양한 API를 활용하여, 새로운 Mash-Up서비스를 손쉽게 개발할 수 있습니다.
+                                            T-map, TMS, aiden, 11st, cloud cam 등을 연계하여 이용해 보세요. </p>
+                                        <a href="https://www.sktcloudmarketplace.com/productDetail?prdtId=90">상품 바로가기</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--
+                    <button class="leftBtn" onclick="main3Btn(0);"></button>
+                    <button class="rightBtn" onclick="main3Btn(1);"></button>
+                -->
+                    </div>
+                </div>
+                <!--section 3 end-->
+
+                <!--section 4 start-->
+                <div id="main_section4" class="w100">
+                    <div id="section4_content" class="w1200 section_head">
+                        <h3>공지사항</h3>
+                        <div>더보기</div>
+                        <ul>
+                            <li>
+                                <div class="n_con notice">
+                                    <a href="https://www.sktcloudmarketplace.com/serviceCenterNoticeDetail?noticeId=67">[안내] SKT, '클라우드 마켓플레이스' 오픈</a>
+                                    <div class="new">N</div>
+                                </div>
+
+                                <span class="date">2021-03-29</span>
+                            </li>
+                            <li>
+                                <div class="n_con notice2">
+                                    <a href="https://www.sktcloudmarketplace.com/serviceCenterNoticeDetail?noticeId=66"> [안내] 기업 활동의 새로운 패러다임 SKT CLOUD BOOK 발간 </a>
+                                    <div class="new">N</div>
+                                </div>
+                                <span class="date">2021-03-29</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--section 4 end-->
+            </div>
+            <!--main end-->
+
+            <!--footer start-->
+            <div id="footer_wrap" class="w100">
+                <div id="footer" class="w1200">
+                    <p>SK텔레콤은 통신판매중개자이며, 클라우드 마켓플레이스의 거래 당사자가 아닙니다. 입점 판매자가 등록한 상품 정보 및 거래에 대해 SK텔레콤은 책임을 지지 않습니다.</p>
+                    <div id="footer_div1">
+                        <ul class="footer_ul1">
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">이메일 무단 수집 거부</a></li>
+                        </ul>
+
+                        <div class="span_div">
+                            <span>
+                                판매자포털바로가기
+
+                            </span>
+                            <span> | </span>
+                            <span>
+                                <select name="family" id="FamilySite_select">
+                                    <option value="1">FamilySite</option>
+                                    <option value="2">T bizpoint</option>
+                                    <option value="3">T world Biz</option>
+                                    <option value="4">IoT Portal</option>
+                                </select>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="ul_div">
+                        <ul>
+                            <li>서울특별시 중구 을지로 65 <span> | </span></li>
+                            <li>대표이사/사장 : 박정호 <span> | </span></li>
+                            <li>통신판매번호 : 2004-서울중구-2923 <span> | </span></li>
+                            <li>사업자등록번호 : 104-81-37225 <span> | </span></li>
+                            <li><a href="#">사업자정보확인</a></li>
+                        </ul>
+                    </div>
+                    <p class="footer_p">고객센터 : 휴대폰 국번없이 T.1599-6011(유료)
+                        <span>|</span>
+                        대표이메일 : sktcloudmarketplace@sktelecom.com
+                    </p>
+                    <p class="footer_p">COPYRIGHT SK TELECOM CO., LTD. ALL RIGHTS RESERVED</p>
+                </div>
+            </div>
+            <!--footer end-->
+        </div>
+
+
+        <script type="text/javascript" src="./js/visual_slide_bar.js"></script>
+        <script src="./js/menubar.js"></script>
+        <script src="./js/mobile.js"></script>
+</body>
+
+
+</html>
